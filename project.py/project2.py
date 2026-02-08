@@ -1,1 +1,0 @@
-user_choice = random.randint(a:0, b:)
