@@ -30,7 +30,7 @@ elif operation == 3:
      print("Result:",multiply(num1,num2))
 
 elif operation == 4:
-     print("Result:",Divide(num1,num2))
+     print("Result:",divide(num1,num2))
     
 else:
     print("Invalid choice")
