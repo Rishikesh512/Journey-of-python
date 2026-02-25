@@ -1,0 +1,14 @@
+marks =[]
+
+n = int(input("How many subjects?"))
+
+for i in range(n) :
+    m = int(input("Enter marks:0"))
+
+    marks.append(m)
+
+    print("Marks List:",marks)
+    print("Total Marks:",sum(marks))
+    print("Average:",sum(marks)/len(marks))
+    print("Higehest Mark:",max(marks))
+    print("Lower mark: ",min(marks))
