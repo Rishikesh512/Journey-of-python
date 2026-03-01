@@ -18,7 +18,6 @@ class Bank_Account(Bank,Account,Customer):
         print("Account Type :-",self.account)
 
 obj=Bank_Account()
-
 obj.account_type()
 obj.customer_name()
 obj.display()
