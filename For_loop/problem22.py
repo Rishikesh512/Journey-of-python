@@ -1,11 +1,9 @@
-num = int(input("Enter number: "))
+num = int(input("Enter any number :-"))
 total = 0
+for i in range(1,num):
 
-for i in range(1, num):
     if num % i == 0:
-        total += i
+        print(i)
+        total += 1
 
-if total == num:
-    print("Perfect number")
-else:
-    print("Not Perfect number")
+print("All divisor of given number is :-",total)
