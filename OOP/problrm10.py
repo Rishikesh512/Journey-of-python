@@ -18,3 +18,5 @@ r = Result()
 r.set_student()
 r.set_marks()
 r.display()
+
+#finally done
