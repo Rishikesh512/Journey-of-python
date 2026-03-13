@@ -1,9 +1,5 @@
-nums = [12, 45, 23, 67, 34]
+numbers = input("Enter numbers separated by space: ")
 
-maximum = nums[0]
+s = set(map(int, numbers.split()))
 
-for i in nums:
-    if i > maximum:
-        maximum = i
-
-print("Maximum:", maximum)
+print(s)
