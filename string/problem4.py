@@ -1,4 +1,4 @@
 #convert string into upper case
-s="rushikesh"
+s=" rushikesh "
 
 print(s.upper())
